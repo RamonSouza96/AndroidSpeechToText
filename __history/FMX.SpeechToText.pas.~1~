@@ -49,6 +49,7 @@ begin
 
   // Set language model and number of expected results
   LRequestIntent.putExtra(TJRecognizerIntent.JavaClass.EXTRA_LANGUAGE_MODEL, TJRecognizerIntent.JavaClass.LANGUAGE_MODEL_FREE_FORM);
+  // https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages
   LRequestIntent.putExtra(TJRecognizerIntent.JavaClass.EXTRA_LANGUAGE, StringToJString('pt-BR'));
   LRequestIntent.putExtra(TJRecognizerIntent.JavaClass.EXTRA_MAX_RESULTS, 1);
 
