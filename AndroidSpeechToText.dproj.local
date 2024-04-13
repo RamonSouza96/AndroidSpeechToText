@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/12 11:54:57.000.697,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/13 06:30:35.982,=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/13 06:33:18.204,F:\PROJETOS\FMX\Android\SpeechToText\Main.View.pas=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/13 06:33:18.204,F:\PROJETOS\FMX\Android\SpeechToText\Main.View.fmx=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/04/13 06:37:21.960,F:\PROJETOS\FMX\Android\SpeechToText\AndroidSpeechToText.dproj=D:\Users\T-Gamer\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/04/13 06:57:53.117,=F:\PROJETOS\FMX\Android\SpeechToText\Unit1.pas</Transaction>
+    <Transaction>2024/04/13 06:59:02.807,F:\PROJETOS\FMX\Android\SpeechToText\FMX.SpeechToText.pas=F:\PROJETOS\FMX\Android\SpeechToText\Unit1.pas</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="67d42177"/>
+  </ActiveMobileDevice>
+</BorlandProject>

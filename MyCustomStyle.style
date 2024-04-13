@@ -1,0 +1,148 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'EditTextStyle1'
+    Align = Center
+    Size.Width = 350.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    object TActiveStyleObject
+      StyleName = 'background'
+      Align = Contents
+      Opacity = 0.000000000000000000
+      SourceLookup = 'Windows 10 Desktopstyle.png'
+      Size.Width = 350.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      ActiveTrigger = Focused
+      ActiveLink = <
+        item
+          CapInsets.Left = 7.000000000000000000
+          CapInsets.Top = 7.000000000000000000
+          CapInsets.Right = 7.000000000000000000
+          CapInsets.Bottom = 7.000000000000000000
+          SourceRect.Left = 266.000000000000000000
+          SourceRect.Top = 81.000000000000000000
+          SourceRect.Right = 305.000000000000000000
+          SourceRect.Bottom = 110.000000000000000000
+        end
+        item
+          CapInsets.Left = 10.000000000000000000
+          CapInsets.Top = 10.000000000000000000
+          CapInsets.Right = 10.000000000000000000
+          CapInsets.Bottom = 10.000000000000000000
+          Scale = 1.500000000000000000
+          SourceRect.Left = 399.000000000000000000
+          SourceRect.Top = 121.000000000000000000
+          SourceRect.Right = 457.000000000000000000
+          SourceRect.Bottom = 165.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Top = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          CapInsets.Bottom = 14.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 532.000000000000000000
+          SourceRect.Top = 162.000000000000000000
+          SourceRect.Right = 610.000000000000000000
+          SourceRect.Bottom = 220.000000000000000000
+        end>
+      SourceLink = <
+        item
+          CapInsets.Left = 7.000000000000000000
+          CapInsets.Top = 7.000000000000000000
+          CapInsets.Right = 7.000000000000000000
+          CapInsets.Bottom = 7.000000000000000000
+          SourceRect.Left = 225.000000000000000000
+          SourceRect.Top = 81.000000000000000000
+          SourceRect.Right = 264.000000000000000000
+          SourceRect.Bottom = 110.000000000000000000
+        end
+        item
+          CapInsets.Left = 10.000000000000000000
+          CapInsets.Top = 10.000000000000000000
+          CapInsets.Right = 10.000000000000000000
+          CapInsets.Bottom = 10.000000000000000000
+          Scale = 1.500000000000000000
+          SourceRect.Left = 337.000000000000000000
+          SourceRect.Top = 121.000000000000000000
+          SourceRect.Right = 396.000000000000000000
+          SourceRect.Bottom = 165.000000000000000000
+        end
+        item
+          CapInsets.Left = 14.000000000000000000
+          CapInsets.Top = 14.000000000000000000
+          CapInsets.Right = 14.000000000000000000
+          CapInsets.Bottom = 14.000000000000000000
+          Scale = 2.000000000000000000
+          SourceRect.Left = 450.000000000000000000
+          SourceRect.Top = 162.000000000000000000
+          SourceRect.Right = 528.000000000000000000
+          SourceRect.Bottom = 220.000000000000000000
+        end>
+      TouchAnimation.Link = <>
+    end
+    object TLayout
+      StyleName = 'content'
+      Align = Client
+      Locked = True
+      Margins.Left = 3.000000000000000000
+      Margins.Top = 3.000000000000000000
+      Margins.Right = 3.000000000000000000
+      Margins.Bottom = 3.000000000000000000
+      Size.Width = 342.000000000000000000
+      Size.Height = 29.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TLayout
+      StyleName = 'buttons'
+      Align = Right
+      Locked = True
+      Margins.Top = 2.000000000000000000
+      Margins.Right = 2.000000000000000000
+      Margins.Bottom = 2.000000000000000000
+      Position.X = 348.000000000000000000
+      Position.Y = 2.000000000000000000
+      Size.Width = 0.000000000000000000
+      Size.Height = 31.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object TBrushObject
+      StyleName = 'foreground'
+      Brush.Color = claBlack
+    end
+    object TBrushObject
+      StyleName = 'selection'
+      Brush.Color = x7F2A96FF
+    end
+    object TFontObject
+      StyleName = 'font'
+    end
+    object TLabel
+      StyleName = 'prompt'
+      Locked = True
+      Opacity = 0.500000000000000000
+      StyleLookup = 'EditTextStyle1LabelStyle1'
+      TextSettings.Trimming = None
+      Visible = False
+    end
+  end
+  object TLayout
+    StyleName = 'EditTextStyle1LabelStyle1'
+    Size.Width = 350.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object TText
+      StyleName = 'text'
+      Align = Client
+      Locked = True
+      HitTest = False
+      Size.Width = 350.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
