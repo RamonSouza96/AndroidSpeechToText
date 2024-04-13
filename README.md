@@ -8,11 +8,9 @@ AndroidSpeechToText is a project demonstrating the integration and usage of Goog
 
 - **No Audio Permission Needed**: As highlighted by the user, since the recognition is performed by the Google app, audio recording permission is not required in your app.
 
-- **Online Speech Recognition**: The project utilizes Google's online speech recognition service, requiring an internet connection to function. Offline recognition is not supported.
+- **Online and Offline Speech Recognition**: The project utilizes Google's speech recognition service, which can operate both online and offline. However, for offline speech recognition, it's necessary to pre-download the appropriate language packages on your device.
 
 - **Language Compatibility**: The language for speech recognition is set to Brazilian Portuguese (pt-BR). Ensure that the selected language is supported by Google's speech recognition API.
-
-- **Result Handling**: The current implementation returns only the first result of speech recognition. Further customization may be required for advanced result processing.
 
 - **Event Subscription**: The class utilizes TMessageManager to subscribe and unsubscribe from messages. Ensure compatibility with other parts of your application using TMessageManager.
 
@@ -22,9 +20,18 @@ AndroidSpeechToText is a project demonstrating the integration and usage of Goog
 
 To use this project, simply include the `FMX.SpeechToText` unit in your Delphi project and call the `StartRecognition` method to initiate speech recognition.
 
-```Delphi
+```delphi
 // Example usage
 TSpeech_Text.StartRecognition('Speak Now', ResultSpeech);
+```
 
-``` Disclaimer
-This project is designed for Android devices and utilizes native Android features for speech recognition. It does not require audio recording permission in your app, as the recognition is performed by the Google app.
+For additional details about Android speech recognition APIs, please consult the official [Android documentation](https://developer.android.com/reference/android/speech/package-summary).
+
+
+https://github.com/RamonSouza96/AndroidSpeechToText/assets/34917070/563781be-4362-4801-aacd-4456c844f441
+
+
+
+## Disclaimer
+
+This project is designed for Android devices and uses native Android features for speech recognition. Requires audio recording permission in your app "android.permission.RECORD_AUDIO".
