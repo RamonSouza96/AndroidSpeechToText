@@ -26,5 +26,5 @@ To use this project, simply include the `FMX.SpeechToText` unit in your Delphi p
 // Example usage
 TSpeech_Text.StartRecognition('Speak Now', ResultSpeech);
 
-## Disclaimer
+``` Disclaimer
 This project is designed for Android devices and utilizes native Android features for speech recognition. It does not require audio recording permission in your app, as the recognition is performed by the Google app.
