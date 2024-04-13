@@ -6,8 +6,6 @@ AndroidSpeechToText is a project demonstrating the integration and usage of Goog
 
 - **Android Dependency**: This project relies on native Android APIs for speech recognition and is specific to the Android platform. It will not work on other platforms such as iOS or Windows.
 
-- **No Audio Permission Needed**: As highlighted by the user, since the recognition is performed by the Google app, audio recording permission is not required in your app.
-
 - **Online and Offline Speech Recognition**: The project utilizes Google's speech recognition service, which can operate both online and offline. However, for offline speech recognition, it's necessary to pre-download the appropriate language packages on your device.
 
 - **Language Compatibility**: The language for speech recognition is set to Brazilian Portuguese (pt-BR). Ensure that the selected language is supported by Google's speech recognition API.
